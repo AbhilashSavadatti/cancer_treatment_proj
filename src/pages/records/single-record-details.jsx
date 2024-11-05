@@ -8,7 +8,7 @@ import { useLocation, useNavigate } from "react-router-dom";
 import { useStateContext } from "../../context/index";
 import ReactMarkdown from "react-markdown";
 import FileUploadModal from "./components/file-upload-modal";
- import RecordDetailsHeader from "./components/record-details-header";
+import RecordDetailsHeader from "./components/record-details-header";
 import { GoogleGenerativeAI } from "@google/generative-ai";
 
 const geminiApiKey = import.meta.env.VITE_GEMINI_API_KEY;

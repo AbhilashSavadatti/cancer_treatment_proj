@@ -8,8 +8,8 @@ import {
 } from "@dnd-kit/core";
 import { SortableContext, arrayMove } from "@dnd-kit/sortable";
 import { createPortal } from "react-dom";
-// import ColumnContainer from "./ColumnContainer";
-// import TaskCard from "./TaskCard";
+import ColumnContainer from "./ColumnContainer";
+import TaskCard from "./TaskCard";
 import { IconPlus } from "@tabler/icons-react";
 
 function KanbanBoard({ state }) {
@@ -210,7 +210,6 @@ function KanbanBoard({ state }) {
     }
   }
 }
-
 
 function generateId() {
   return Math.floor(Math.random() * 10001);
