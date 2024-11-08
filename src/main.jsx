@@ -11,7 +11,7 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 
 root.render(
   <PrivyProvider
-    appId="cm2nkqwor0a5fc8jc5tnkdqgy"
+    appId="cm2nkqwor0a5fc8jc5tnkdqgy" 
     config={{
       appearance: {
         theme: "dark",

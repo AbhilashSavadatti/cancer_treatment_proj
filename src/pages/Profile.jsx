@@ -10,12 +10,12 @@ const Profile = () => {
     if (!currentUser) {
       fetchUserByEmail(user?.email?.address);
     }
-  }, [currentUser, fetchUserByEmail]);
+  }, [currentUser, fetchUserByEmail, user]);
 
   if (!currentUser) {
     return (
       <div className="flex h-screen items-center justify-center">
-        <div className="text-lg text-gray-500">Loading...</div>
+        <div className="text-lg text-gray-500">Please login...</div>
       </div>
     );
   }
@@ -30,22 +30,22 @@ const Profile = () => {
         <div className="mt-4 w-full">
           <p className="mb-1 text-sm text-gray-400">Email:</p>
           <p className="mb-4 text-lg font-semibold text-white">
-            {currentUser.createdBy}
+            {currentUser?.createdBy || "N/A"}
           </p>
 
           <p className="mb-1 text-sm text-gray-400">Username:</p>
           <p className="mb-4 text-lg font-semibold text-white">
-            {currentUser.username}
+            {currentUser?.username || "N/A"}
           </p>
 
           <p className="mb-1 text-sm text-gray-400">Age:</p>
           <p className="mb-4 text-lg font-semibold text-white">
-            {currentUser.age}
+            {currentUser?.age || "N/A"}
           </p>
 
           <p className="mb-1 text-sm text-gray-400">Location:</p>
           <p className="text-lg font-semibold text-white">
-            {currentUser.location}
+            {currentUser?.location || "N/A"}
           </p>
         </div>
       </div>
