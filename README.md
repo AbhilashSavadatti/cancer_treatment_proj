@@ -16,12 +16,11 @@
 
 1. 🤖 [Introduction](#introduction)
 2. 🔋 [Features](#features)
-3. 🏆 [Inspiration](#inspiration)
-4. ⚙️ [Setup and Deployment](#setup-and-deployment)
-5. 🚀 [Usage](#usage)
-6. 🌠 [Gemini AI Integration](#gemini-ai-integration)
-7. 🤝 [Contributing](#contributing)
-8. 📜 [License](#license)
+3. ⚙️ [Setup and Deployment](#setup-and-deployment)
+4. 🚀 [Usage](#usage)
+5. 🌠 [Gemini AI Integration](#gemini-ai-integration)
+6. 🤝 [Contributing](#contributing)
+7. 📜 [License](#license)
 
 ## 🤖 Introduction
 
