@@ -1,8 +1,6 @@
 <div align="center">
   <br />
-  <a href="https://www.imghippo.com/i/QkF5786kXQ.png" title="Project Screenshot" target="_blank">
-    <img src="https://www.imghippo.com/i/QkF5786kXQ.png" width="100%" alt="Project Screenshot"/>
-  </a>
+ <h1 align="center">AI personalized cancer treatment)</h1>
   <br />
   <div>
     <img src="https://img.shields.io/badge/-JavaScript-black?style=for-the-badge&logoColor=white&logo=javascript&color=F7DF1E" alt="javascript" />
