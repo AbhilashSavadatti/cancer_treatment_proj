@@ -1,6 +1,6 @@
 <div align="center">
   <br />
- <h1 align="center">AI personalized cancer treatment)</h1>
+ <h1 align="center">AI personalized cancer treatment</h1>
   <br />
   <div>
     <img src="https://img.shields.io/badge/-JavaScript-black?style=for-the-badge&logoColor=white&logo=javascript&color=F7DF1E" alt="javascript" />
